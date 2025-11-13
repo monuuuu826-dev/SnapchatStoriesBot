@@ -15,10 +15,10 @@ plugins = dict(root="bot/modules")
 class Bot(Client):
 
     def __init__(self):
-        super().__init__(name="Nexiuo",
-                         api_id=Config.API_ID,
-                         api_hash=Config.API_HASH,
-                         bot_token=Config.BOT_TOKEN,
+        super().__init__(name="Nexiuo".39591986,
+                         api_id=Config.,
+                         api_hash=Config.867492ad46ef46ee807a7c62bdc372f4,
+                         bot_token=Config.8482963758:AAG9XsJhAtz0MVxqRVMbOi1RZeaGhlSLRgs,
                          plugins=plugins)
 
     async def start(self):
