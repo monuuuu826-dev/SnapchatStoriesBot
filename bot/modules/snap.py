@@ -38,14 +38,7 @@ async def reply_shortens(bot, update):
     try:
         for i in data["props"]["pageProps"]["story"]["snapList"]:
             await update.reply_document(
-                document=i["snapUrls"]["mediaUrl"], caption="By: @Monuuu01
-                
-                
-                
-                
-                
-                
-                "
+                document=i["snapUrls"]["mediaUrl"], caption="By: @Monuuu01"
             )
     except KeyError:
         await update.reply_text(
